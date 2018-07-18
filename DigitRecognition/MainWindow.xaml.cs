@@ -53,6 +53,7 @@ namespace DigitRecognition
                 DownLine.neuronWithWeights.Add(new NeuronWithWeight() { NeuronItem = network1[i], Weight = 0.25 });
             Neuron MidLineZ = new Neuron();
             Neuron MidLineS = new Neuron();
+            //TODO: learnning
             for (int i = 4; i < 12; i++)
             {
                 double weightS = 0.125;
